@@ -12,7 +12,5 @@ manifest:
     - name: zmk-component-ble-micro-pro
       remote: sekigon-gonnoc
       revision: main
-    - name: zmk-feature-non-lipo-battery-management
-      remote: sekigon-gonnoc
   self:
     path: config
