@@ -105,6 +105,7 @@
             >;
         };
 
+/*
         ARROW {
             bindings = <
 &kp ESCAPE      &mkp MB4                &kp UP_ARROW    &mkp MB5                 &trans                       &kp LG(LEFT_ARROW)          &kp LA(LEFT_ARROW)      &kp UP_ARROW    &kp RA(RIGHT_ARROW)      &kp RG(RIGHT_ARROW)
@@ -113,8 +114,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &kp BACKSPACE                                                                                
             >;
         };
-
-/*
+*/
 
         MOUSE {
             bindings = <
@@ -142,6 +142,5 @@
 &trans          &trans        &trans        &trans        &trans        &trans      &trans  &trans                               
             >;
         };
-*/
     };
 };
