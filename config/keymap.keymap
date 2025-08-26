@@ -86,7 +86,7 @@
                                     &mt LEFT_ALT TAB  &lt 5 LANG2     &lt 4 SPACE  &lt 2 LANG1  &lt 5 BACKSPACE  &lt 1 ENTER  &kp JP_COLON     &mt JP_TILDE ESCAPE
             >;
         };
-/*
+
         SYMBOL {
             bindings = <
 &kp F1                      &kp F2     &kp F3        &kp LA(F4)    &kp F5                                    &kp F6             &kp F7            &kp F8           &kp F9                   &kp F10
@@ -95,6 +95,8 @@
                                        &kp LEFT_WIN  &kp LEFT_ALT  &kp LC(HOME)   &kp LC(END)   &kp JP_PIPE  &trans             &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  
             >;
         };
+
+/*
 
         NUM {
             bindings = <
