@@ -45,7 +45,29 @@
 
 / {
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+				compatible = "zmk,combos";
+				combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+				combo_tab {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&kp TAB>;
+        };
+				combo_lc_pgup {
+            timeout-ms = <50>;
+            key-positions = <16 17>;
+            bindings = <&kp LC(PAGE_UP)>;
+        };
+				combo_lc_pgdn {
+            timeout-ms = <50>;
+            key-positions = <17 18>;
+            bindings = <&kp LC(PAGE_DOWN)>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
