@@ -42,6 +42,8 @@
 };
 
 / {
+
+/*
     combos { compatible = "zmk,combos"; };
 
     macros {
@@ -63,6 +65,7 @@
             tapping-term-ms = <200>;
         };
     };
+*/
 
     keymap {
         compatible = "zmk,keymap";
