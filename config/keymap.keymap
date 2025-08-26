@@ -96,8 +96,6 @@
             >;
         };
 
-/*
-
         NUM {
             bindings = <
 &trans  &trans  &trans   &trans   &kp JP_LBRACKET                 &kp JP_RBRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_EQUAL
@@ -106,6 +104,8 @@
                 &trans   &trans   &trans   &trans      &kp MINUS  &kp JP_PLUS      &kp COMMA     &kp PERIOD
             >;
         };
+
+/*
 
         ARROW {
             bindings = <
