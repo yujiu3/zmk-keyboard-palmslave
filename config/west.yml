@@ -14,5 +14,6 @@ manifest:
       revision: main
     - name: zmk-feature-non-lipo-battery-management
       remote: sekigon-gonnoc
+      revision: main
   self:
     path: config
