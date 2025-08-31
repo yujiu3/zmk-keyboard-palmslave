@@ -43,13 +43,15 @@
 // 追記
     vbatt: vbatt {
         // Disable default battery monitoring0
+        // torabo-tsuki-lp参照
         status = "disabled";
     };
 
     non_lipo_battery: non_lipo_battery {
         compatible = "zmk,non-lipo-battery";
         io-channels = <&adc 0>;  // 使用するADCチャンネル
-        
+        status = "okay"; // ChatGPT助言で追記
+
         // オプション: 電圧分圧器の電源制御GPIO
         // power-gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;  // 使用するGPIOに置き換えてください
     };
