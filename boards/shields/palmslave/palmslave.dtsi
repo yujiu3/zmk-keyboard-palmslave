@@ -56,11 +56,13 @@
         // power-gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;  // 使用するGPIOに置き換えてください
     };
 
+// 追記ここまで
+
+};
+
+// 以下追記
 &adc {
     status = "okay";
 };
 
-// 追記ここまで
-
-};
 
