@@ -49,7 +49,7 @@
 
     non_lipo_battery: non_lipo_battery {
         compatible = "zmk,non-lipo-battery";
-        io-channels = <&adc 6>;  // 使用するADCチャンネル
+        io-channels = <&adc 7>;  // 使用するADCチャンネル
         // status = "okay"; // ChatGPT助言で追記
 
         // オプション: 電圧分圧器の電源制御GPIO
